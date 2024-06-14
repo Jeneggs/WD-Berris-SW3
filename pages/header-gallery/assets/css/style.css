@@ -111,24 +111,8 @@ header.design-two {
     border-radius: 5px;
   }
 
-  .item.left {
-    justify-content: flex-start;
-  }
-
-  .item.bi-list {
-    font-size: 1.5rem;
-  }
-
-  .item.middle {
-    justify-content: center;
-  }
-
   .item .company-logo {
     height: 70px;
-  }
-
-  .item.right {
-    justify-content: flex-end;
   }
 
   .item .call-1 {
@@ -157,6 +141,7 @@ header.design-three {
 
   .company-logo {
       font-size: 1.8rem;
+      font-family: 'Orbitron', sans-serif;
       color: rgb(236, 240, 241);
       font-weight: bold;
       text-decoration: none;
@@ -185,6 +170,44 @@ header.design-three {
       }
   }
 }
+
+header.design-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 40px;
+  background-color: rgb(34, 34, 34); 
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+  }
+
+  .company-logo {
+      color: rgb(128, 0, 128); 
+      text-decoration: none;
+      font-size: 1.8rem;
+      font-family: 'Orbitron', sans-serif;
+  }
+
+  .navigation {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .navigation-content {
+          color: rgb(255, 255, 255); 
+          text-decoration: none;
+          font-weight: bold;
+      }
+      .bi {
+          font-size: 1.2rem;
+      }
+}
+}
+
 
 
 
