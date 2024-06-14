@@ -191,22 +191,6 @@ section {
     text-align: center;
     padding: 10px;
 }
-.design-six.social-icons {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.design-six.social-icons li {
-    margin: 0 10px;
-}
-
-.design-six.social-icons a {
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-}
-
 
 .design-six:hover {
     background-color: rgb(255, 0, 0);
