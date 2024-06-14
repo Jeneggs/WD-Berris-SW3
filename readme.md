@@ -66,6 +66,9 @@ This project is a collection of header and footer designs, with the landing page
 <!-- The following are just sample -->
 - MultiPage Website
 
+## Deployment link
+https://jeneggs.github.io/WD-Berris-SW3/
+
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
