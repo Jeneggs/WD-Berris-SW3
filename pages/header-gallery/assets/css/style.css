@@ -270,9 +270,6 @@ header.design-four {
   transition: color 0.3s;
 }
 
-.icons a:hover {
-  color: rgb(0, 0, 0);
-}
 }
 
 header.design-six {
@@ -306,6 +303,95 @@ header.design-six {
     color: rgb(255, 215, 0);
     }
   }
+}
+
+header.design-seven{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(0, 51, 160);
+
+  & > img.company-logo {
+    height: 80px;
+  }
+
+  & > img.company-logo:hover{
+    height: 90px;
+    transition: transform 0.3s ease;;
+  }
+
+  & > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & > a.navigation-content {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: rgb(255, 255, 255);
+    }
+
+    & > a.navigation-content:hover{
+    color: rgb(255, 215, 0);
+    }
+  }
+  header.design-seven {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(0, 51, 160);
+  }
+  
+  .company-logo {
+    height: 80px;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation-content {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+  }
+  
+  .navigation-content:hover {
+    color: rgb(255, 215, 0);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 215, 0);
+  }  
 }
 
 
