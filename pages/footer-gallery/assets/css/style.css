@@ -185,33 +185,32 @@ section {
 }
 }
 
-.design-six:hover {
-    background-color: rgb(255, 0, 0);
-    transition: 1s;
-}
-
 .design-six {
     background-color: rgb(0, 51, 160);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
-
-.social-icons {
+}
+.design-six.social-icons {
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.social-icons li {
+.design-six.social-icons li {
     margin: 0 10px;
 }
 
-.social-icons a {
+.design-six.social-icons a {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 
+
+.design-six:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
 }
 
 
