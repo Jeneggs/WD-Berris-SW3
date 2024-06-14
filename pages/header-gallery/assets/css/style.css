@@ -144,6 +144,49 @@ header.design-two {
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
-
 }
+
+header.design-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 35px;
+  background-color: rgb(44, 62, 80);
+
+  .company-logo {
+      font-size: 1.8rem;
+      color: rgb(236, 240, 241);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: rgb(243, 156, 18);
+  }
+
+  .navigation {
+      display: flex;
+      gap: 35px;
+
+      .navigation-content {
+          color: rgb(236, 240, 241);
+          font-weight: bold;
+          font-size: 1.1rem;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          text-decoration: none;
+      }
+
+      .bi-person-circle {
+          font-size: 40px;
+          color: rgb(243, 156, 18);
+      }
+  }
+}
+
+
+
+
 
