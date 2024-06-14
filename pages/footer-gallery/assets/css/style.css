@@ -70,23 +70,6 @@ section {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
-
-
-.social-icons {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.social-icons li {
-    margin: 0 10px;
-}
-
-.social-icons a {
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-}
 }
 
 .design-two {
