@@ -185,6 +185,11 @@ section {
 }
 }
 
+.design-six:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
 .design-six {
     background-color: rgb(0, 51, 160);
     color: rgb(255, 255, 255);
@@ -206,12 +211,9 @@ section {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
+
 }
 
-.design-six:hover {
-    background-color: rgb(255, 0, 0);
-    transition: 1s;
-}
 
 .design-seven {
     background-color: rgb(167, 187, 153);
