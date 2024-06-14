@@ -175,9 +175,10 @@ header.design-four {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 15px;
   gap: 40px;
-  background-color: rgb(34, 34, 34); 
+  background-color: rgb(34, 34, 34);
 
   .item {
     display: flex;
@@ -186,7 +187,7 @@ header.design-four {
   }
 
   .company-logo {
-      color: rgb(128, 0, 128); 
+      color: rgb(128, 0, 128);
       text-decoration: none;
       font-size: 1.8rem;
       font-family: 'Orbitron', sans-serif;
@@ -198,12 +199,9 @@ header.design-four {
       gap: 1rem;
 
       .navigation-content {
-          color: rgb(255, 255, 255); 
+          color: rgb(255, 255, 255);
           text-decoration: none;
           font-weight: bold;
-      }
-      .bi {
-          font-size: 1.2rem;
       }
 }
 }
