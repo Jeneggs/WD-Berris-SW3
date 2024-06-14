@@ -96,7 +96,7 @@ header.design-two {
     padding: 15px;
     background-color: rgb(167,187,153);
 
-  .item-5 {
+  .item {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -111,34 +111,34 @@ header.design-two {
     border-radius: 5px;
   }
 
-  .item-5.left {
+  .item.left {
     justify-content: flex-start;
   }
 
-  .item-5.bi-list {
+  .item.bi-list {
     font-size: 1.5rem;
   }
 
-  .item-5.middle {
+  .item.middle {
     justify-content: center;
   }
 
-  .item-5 .company-logo {
+  .item .company-logo {
     height: 70px;
   }
 
-  .item-5.right {
+  .item.right {
     justify-content: flex-end;
   }
 
-  .item-5 .call-1 {
+  .item .call-1 {
     font-size: 1.1rem;
     border: 1px white solid;
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
 
-  .item-5 .call-2 {
+  .item .call-2 {
     font-size: 1.1rem;
     border: 1px white solid;
     padding: 0.5rem 1rem;
